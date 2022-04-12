@@ -1,6 +1,7 @@
 # [Gold V] 미친 로봇 - 1405 
 
 [문제 링크](https://www.acmicpc.net/problem/1405) 
+[풀이 링크](https://velog.io/@boing-86/%EB%B0%B1%EC%A4%80C-1405-%EB%AF%B8%EC%B9%9C%EB%A1%9C%EB%B4%87)
 
 ### 성능 요약
 
