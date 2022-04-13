@@ -1,7 +1,7 @@
 # [Silver II] 유기농 배추 - 1012 
 
 [문제 링크](https://www.acmicpc.net/problem/1012) 
-
+[풀이 링크](https://velog.io/@boing-86/%EB%B0%B1%EC%A4%80C-1012-%EC%9C%A0%EA%B8%B0%EB%86%8D-%EB%B0%B0%EC%B6%94)
 ### 성능 요약
 
 메모리: 2032 KB, 시간: 4 ms
