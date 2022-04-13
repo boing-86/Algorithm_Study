@@ -1,6 +1,7 @@
 # [Gold IV] 빙산 - 2573 
 
-[문제 링크](https://www.acmicpc.net/problem/2573) 
+[문제 링크](https://www.acmicpc.net/problem/2573)
+[풀이 링크](https://velog.io/@boing-86/%EB%B0%B1%EC%A4%80C-2573-%EB%B9%99%EC%82%B0)
 
 ### 성능 요약
 
