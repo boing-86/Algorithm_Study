@@ -11,7 +11,7 @@ int btime[501];
 int result[501] = {0, };
 
 void topology_Sort(){
-    int min_time = 0;
+
     queue <int> q;
 
     for(int i = 1; i<=n; i++){
