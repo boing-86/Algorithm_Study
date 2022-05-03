@@ -1,4 +1,5 @@
 Coursera Introduction to Self-Driving Cars
+Final Project - Lateral&Longitudinal Controller Design & Test
 
 *구체적인 것은 CARLA setup for Windows 공식 문서를 참고해주세요!
 
