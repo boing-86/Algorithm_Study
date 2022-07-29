@@ -9,14 +9,14 @@ vector<int> solution(vector<string> operations) {
     vector<int> arr;
     int i = 0;
 
-    for(i = 0; i<operations.size(); i++){
-        if(operations[i][0] == 'I'){
-            string tmp = operations[i];
+    for(auto iter : operations){
+        if(iter[0] == 'I'){
+            string tmp = iter;
             int pnum = stoi(tmp.substr(2, tmp.length()-2));
             arr.push_back(pnum);
         }
 
-        else if(operations[i] == "D 1" && !arr.empty()){
+        else if(iter == "D 1" && !arr.empty()){
             arr.erase(max_element(arr.begin(), arr.end()));
         }
 
