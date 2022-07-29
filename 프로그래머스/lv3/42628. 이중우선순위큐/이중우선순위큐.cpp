@@ -12,23 +12,15 @@ vector<int> solution(vector<string> operations) {
     for(i = 0; i<operations.size(); i++){
         if(operations[i][0] == 'I'){
             string tmp = operations[i];
-            tmp.erase(tmp.begin());
-            tmp.erase(tmp.begin());
-            int pnum = stoi(tmp);
+            int pnum = stoi(tmp.substr(2, tmp.length()-2));
             arr.push_back(pnum);
         }
 
-        else if(operations[i] == "D 1"){
-            if(arr.empty()){
-                continue;
-            }
+        else if(operations[i] == "D 1" && !arr.empty()){
             arr.erase(max_element(arr.begin(), arr.end()));
         }
 
-        else if(operations[i] == "D -1"){
-            if(arr.empty()){
-                continue;
-            }
+        else if(!arr.empty()){
             arr.erase(min_element(arr.begin(), arr.end()));
         }
     }
