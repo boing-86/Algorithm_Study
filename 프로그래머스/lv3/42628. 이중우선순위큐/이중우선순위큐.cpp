@@ -4,15 +4,13 @@
 
 using namespace std;
 
-vector<int> solution(vector<string> operations) {
+vector<int> solution(const vector<string> operations) {
     vector<int> answer;
     vector<int> arr;
-    int i = 0;
 
     for(auto iter : operations){
         if(iter[0] == 'I'){
-            string tmp = iter;
-            int pnum = stoi(tmp.substr(2, tmp.length()-2));
+            int pnum = stoi(iter.substr(2, iter.length()-2));
             arr.push_back(pnum);
         }
 
