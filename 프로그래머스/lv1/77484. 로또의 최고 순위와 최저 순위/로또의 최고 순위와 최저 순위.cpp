@@ -13,7 +13,7 @@ vector<int> solution(vector<int> lottos, vector<int> win_nums) {
     int i = 0, j=0;
     int zcount=0, count = 0;
 
-    while(i<lottos.size() && j<win_nums.size()){
+    while(i<lottos.size() && j < win_nums.size()){
         if(lottos[i] == 0){
             zcount++;
             i++;
@@ -24,7 +24,7 @@ vector<int> solution(vector<int> lottos, vector<int> win_nums) {
                 i++;
                 j++;
             }
-            else if(lottos[i]>win_nums[j]){
+            else if(lottos[i] > win_nums[j]){
                 j++;
             }
             else{
