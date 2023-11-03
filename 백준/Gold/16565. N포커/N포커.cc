@@ -26,7 +26,7 @@ int main(){
     int result = 0;
 
     for(int i = 4; i <= n; i+=4){
-        if( (i/4) % 2 == 1){
+        if( (i/4) & 0x01){
             result += nCk[13][i/4] * nCk[52-i][n-i];
         }
         else{
