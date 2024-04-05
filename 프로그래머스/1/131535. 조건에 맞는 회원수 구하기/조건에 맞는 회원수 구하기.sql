@@ -1,0 +1,8 @@
+-- 코드를 입력하세요
+SELECT
+    COUNT(*)
+FROM
+    USER_INFO AS U
+WHERE U.AGE >= 20
+    AND U.AGE <= 29
+    AND DATE_FORMAT(U.JOINED, '%Y') = '2021'
