@@ -1,4 +1,4 @@
-# [Silver III] ATM - 11399 
+# [Silver IV] ATM - 11399 
 
 [문제 링크](https://www.acmicpc.net/problem/11399) 
 
@@ -8,7 +8,11 @@
 
 ### 분류
 
-그리디 알고리즘(greedy), 정렬(sorting)
+그리디 알고리즘, 정렬
+
+### 제출 일자
+
+2022년 4월 27일 19:12:42
 
 ### 문제 설명
 
