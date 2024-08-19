@@ -7,10 +7,6 @@ using namespace std;
 
 long long recursive(long long a, long long b, long long c){
 
-    if(b == 0){
-        return 1;
-    }
-    
     if(b == 1){
         return a % c;
     }
